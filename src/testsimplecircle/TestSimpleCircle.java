@@ -26,6 +26,7 @@ public class TestSimpleCircle {
         System.out.println("The area of the circle of radius " + circle2.radius
         + " is " + circle2.getArea());
         
+        System.out.println("This is my first learning expierence");
         
     }
     
