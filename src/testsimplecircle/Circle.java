@@ -10,14 +10,22 @@ public class Circle {
     
     double radius;
     
+    static int numberOfObjects = 0;
+    
     
     // define 2 constructors
     public Circle() {
         radius = 1;
+        numberOfObjects++;
     }
     
     public Circle(double newRadius){
         radius = newRadius;
+        numberOfObjects++;
+    }
+    
+    static int getNumberOfObjects() {
+        return numberOfObjects;
     }
     
     /** return the area of this circle **/
